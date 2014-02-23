@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
+p {
+    -webkit-font-smoothing: subpixel-antialiased;
+  margin: 0px;  
+}
+
+body {
+    font-family: 'Arvo';
+}
+.member-photo {
+position: relative;
+max-width: 100%;
+height: auto;
+overflow: hidden;
+text-align: center;
+}
+
+.member-photo::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+		-moz-box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+		-webkit-box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+	   } 
+
+.member-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-stats-container {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-transform: capitalize;
+    width: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: 'Arvo';
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    z-index: 10;
+    }
+
+
+.imageStats {
+    padding: 0px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.imageStats li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: inherit;
+    vertical-align: baseline;
+    display: inline;
+}
+
+#carousel-example-generic {
+border: 1px solid #bcbdbc;
+border-bottom: 1px solid #333;
+-webkit-box-shadow: 0 15px 15px -10px #333;
+-moz-box-shadow: 0 15px 15px -10px #333;
+box-shadow: 0 15px 15px -10px #333;
+}
+
+.photo-container-progress {
+position: relative;
+display: inline-block;
+max-width: 450px;
+height: auto;
+overflow: hidden;
+text-align: center;
+border: 1px solid #bcbdbc;
+border-bottom: 1px solid #333;
+-webkit-box-shadow: 0 15px 15px -10px #333;
+-moz-box-shadow: 0 15px 15px -10px #333;
+box-shadow: 0 15px 15px -10px #333;
+}
+
+.photo-container-progress a {
+    display: block;
+}
+
+.photo-container-progress a.view-photo::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+		-moz-box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+		-webkit-box-shadow: inset 0px -60px 60px -20px rgba(0,0,0,0.7);
+	   } 
+
+.photo-container-progress .btn-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    
+}
